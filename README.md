@@ -1,80 +1,105 @@
 # Mediscan
 
-Mediscan is a TypeScript-based web application for managing and scanning medical records and images. It provides a clean, responsive UI and a focused feature set to help healthcare professionals view, search, and organize patient scans and related information.
+Mediscan is a modern medical imaging dashboard and AI model workspace built with Next.js and TypeScript. It is designed to help teams review medical image datasets, monitor model performance, and explore experiment pipelines for diagnostic analysis.
 
-Live demo
+Live demo: https://sentinel-yh.vercel.app/
 
-- Deployed preview: https://mediscan-sigma.vercel.
+## Overview
 
-Key features
+This project presents a polished interface for a medical imaging workflow, including:
 
-- View and browse medical scans and records in a responsive interface.
-- Search and filter records by patient, date, or metadata.
-- Clean UI built with TypeScript and modern CSS.
-- Fast development workflow and production-ready build scripts.
+- dataset and preprocessing pipeline tracking
+- model training and experiment status monitoring
+- evaluation metrics and diagnostic insights
+- a responsive dashboard for healthcare and AI research workflows
 
-Tech stack
+The application is built as a frontend-focused product for visualizing a medical AI project lifecycle and is primarily developed in TypeScript with styling handled through CSS and Tailwind utilities.
 
+## Tech stack
+
+- Next.js 16
+- React 19
 - TypeScript
-- CSS
-- JavaScript (small utility code)
+- Tailwind CSS
+- Vercel Analytics
 
-Getting started
+Language composition:
 
-These instructions assume you have Node.js and npm (or yarn) installed.
+- TypeScript: 78.1%
+- CSS: 20.7%
+- JavaScript: 1.2%
 
-1. Clone the repository
+## Project structure
 
-   git clone https://github.com/Sakshi-2006/mediscan.git
-   cd mediscan
+- `app/` - application pages and global layout
+- `components/` - reusable UI components
+- `lib/` - utility and helper logic
+- `public/` - static assets
+- `package.json` - project scripts and dependencies
+- `next.config.mjs` - Next.js configuration
 
-2. Install dependencies
+## Getting started
 
-   npm install
-   # or
-   yarn install
+This repository uses pnpm as the package manager.
 
-3. Start the development server
+### Prerequisites
 
-   npm run dev
-   # or
-   yarn dev
+- Node.js 18 or newer
+- pnpm
 
-4. Build for production
+### Install dependencies
 
-   npm run build
-   # or
-   yarn build
+```bash
+git clone https://github.com/Sakshi-2006/mediscan.git
+cd mediscan
+pnpm install
+```
 
-5. Start the production server locally (if applicable)
+### Run locally
 
-   npm start
-   # or
-   yarn start
+```bash
+pnpm dev
+```
 
-Notes about deployment
+Then open http://localhost:3000 in your browser.
 
-This project is suitable for deployment on platforms such as Vercel. The repository appears to be prepared for a static or server-rendered TypeScript application; follow your platform's guides to deploy.
+## Available scripts
 
-Contributing
+```bash
+pnpm dev
+pnpm build
+pnpm start
+```
+
+- `pnpm dev` starts the development server
+- `pnpm build` creates a production build
+- `pnpm start` runs the production build locally
+
+## Deployment
+
+This app is configured for deployment on Vercel. The project also includes the standard Next.js build configuration required for deployment on modern hosting platforms.
+
+To deploy:
+
+1. Connect the GitHub repository to Vercel.
+2. Import the project and configure the framework as Next.js.
+3. Deploy the app using the repository default settings.
+
+## Contributing
 
 Contributions are welcome. To contribute:
 
 1. Fork the repository.
-2. Create a feature branch (git checkout -b feature/my-feature).
-3. Commit your changes and open a pull request.
+2. Create a feature branch.
+3. Make your changes and commit them with a clear message.
+4. Open a pull request with a short description of the update.
 
-Please include clear descriptions for bug fixes or feature additions, and keep commits small and focused.
+## License
 
-Code style and testing
+This repository does not currently include a license file. Add a LICENSE file if you want to define the project's open-source usage terms.
 
-- Follow existing TypeScript conventions used across the codebase.
-- Add tests where appropriate and run the test suite before submitting a PR.
+## Contact
 
-License
+For questions or support, visit the repository on GitHub:
 
-This repository does not specify a license. Add a LICENSE file or update this README if you want to declare an open source license.
-
-Contact
-
-For questions about this project, open an issue on the repository: https://github.com/Sakshi-2006/mediscan
+https://github.com/Sakshi-2006/mediscan
