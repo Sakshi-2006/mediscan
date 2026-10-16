@@ -3,8 +3,8 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
+  title: 'Medscope | Medical Image Analysis',
+  description: 'A focused workspace for tracking medical imaging model training, evaluation, and predictions.',
   generator: 'v0.app',
   icons: {
     icon: [
